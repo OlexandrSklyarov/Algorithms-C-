@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{14B93328-5084-4F56-B35A-36EA7E1CACC4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmSort/Algorithm/Sort/SortAlgorithm.cs">
+    <Files>
+      <File FileName="AlgorithmSort/Program.cs" Line="41" Column="1" />
+      <File FileName="AlgorithmSort/Algorithm/Sort/SortAlgorithm.cs" Line="3" Column="1" />
+      <File FileName="AlgorithmSort/Algorithm/Sort/SortAlgorithmBase.cs" Line="6" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlgorithmSort" expanded="True">
+            <Node name="AlgorithmSort" expanded="True">
+              <Node name="Algorithm" expanded="True">
+                <Node name="Sort" expanded="True">
+                  <Node name="SortAlgorithm.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AlgorithmSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
