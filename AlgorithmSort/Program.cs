@@ -47,8 +47,5 @@ namespace AlgorithmSort
 
             Console.WriteLine();
         }
-
-
-
     }
 }
