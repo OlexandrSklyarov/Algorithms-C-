@@ -1,0 +1,6 @@
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/bin/Debug/AlgorithmSort.exe
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/bin/Debug/AlgorithmSort.pdb
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/obj/x86/Debug/AlgorithmSort.csprojAssemblyReference.cache
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/obj/x86/Debug/AlgorithmSort.csproj.CoreCompileInputs.cache
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/obj/x86/Debug/AlgorithmSort.exe
+/home/alex/Projects/AlgorithmSort/AlgorithmSort/obj/x86/Debug/AlgorithmSort.pdb
