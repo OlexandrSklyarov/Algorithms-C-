@@ -3,23 +3,27 @@ using System.Collections.Generic;
 
 namespace AlgorithmSort
 {
-    public class SortAlgorithmBase<T>
+    public class SortAlgorithmBase<T> 
     {
-        public List<T> items = new List<T>();
+        public List<T> Items = new List<T>();
+
 
         //обмен
-        protected void Swap(int itemA, int itemB)
+        protected void Swap(int posA, int posB)
         {
-            int temp = itemA;
-            itemA = itemB;
-            itemB = temp;
+            if (posA < Items.Count && posB < Items.Count)
+            {
+                T temp = Items[posA];
+                Items[posA] = Items[posB];
+                Items[posB] = temp;
+            }
         }
 
 
         //сортировка (базовый метод)
         public virtual void Sort()
         {
-            items.Sort();
+            Items.Sort();
         }
     }
 }

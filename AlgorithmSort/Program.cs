@@ -8,30 +8,30 @@ namespace AlgorithmSort
         public static void Main(string[] args)
         {
             //создаем екземпляр алгоритма
-            BubleSort<int> buble = new BubleSort<int>();
+            //BubleSort<int> algorithm = new BubleSort<int>();
+            CocktailSort<int> algorithm = new CocktailSort<int>();
 
-            //заполняем его список
-            for (int i = 0; i < 10; i++)
+            var rnd = new Random();
+
+            //заполняем список случайными числами
+            for (int i = 0; i < 15; i++)
             {
-                Console.Write(" Введите число: ");
-               
-                if (int.TryParse(Console.ReadLine(), out int value))
-                {
-                    buble.items.Add(value);                   
-                }
-                Console.WriteLine();
+                var n = rnd.Next(0, 100);
+                algorithm.Items.Add(n);
             }
 
             //выводим список до сортировки
-            Console.WriteLine("Вывод:");
-            Output(buble.items);
+            Console.WriteLine("До сортировки:");
+            Output(algorithm.Items);
 
             //сортируем
-            buble.Sort();
+            algorithm.Sort();
+
+            Console.WriteLine();
 
             //выводим список после сортировки
-            Console.WriteLine("Вывод после сортировки:");
-            Output(buble.items);
+            Console.WriteLine("После сортировки:");
+            Output(algorithm.Items);
 
             Console.ReadKey();
         }

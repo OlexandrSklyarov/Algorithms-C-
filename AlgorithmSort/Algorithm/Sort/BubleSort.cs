@@ -8,14 +8,14 @@ namespace AlgorithmSort
         //алгоритм сортировки пузырьком
         public void SortT()
         {
-            for (int i = 0; i < items.Count; i++)
+            for (int i = 0; i < Items.Count; i++)
             {
-                for (int j = 0; j < items.Count - i - 1; j++)
+                for (int j = 0; j < Items.Count - i - 1; j++)
                 {
-                    var itemA = items[j];
-                    var itemB = items[j +1];
+                    var a = Items[j];
+                    var b = Items[j +1];
 
-                    if (itemA.CompareTo(itemB) == 1)
+                    if (a.CompareTo(b) == 1)
                     {
                         Swap(j, j+1);
                     }
