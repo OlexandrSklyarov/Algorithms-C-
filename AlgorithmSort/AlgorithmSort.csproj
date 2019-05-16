@@ -37,6 +37,7 @@
     <Compile Include="Algorithm\Sort\BubleSort.cs" />
     <Compile Include="Algorithm\Sort\SortAlgorithmBase.cs" />
     <Compile Include="Algorithm\Sort\CocktailSort.cs" />
+    <Compile Include="Algorithm\Sort\InsertSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />

@@ -7,14 +7,14 @@ namespace AlgorithmSort
     {
         public static void Main(string[] args)
         {
-            //создаем екземпляр алгоритма
             //BubleSort<int> algorithm = new BubleSort<int>();
-            CocktailSort<int> algorithm = new CocktailSort<int>();
+            //CocktailSort<int> algorithm = new CocktailSort<int>();
+            InsertSort<int> algorithm = new InsertSort<int>();
 
             var rnd = new Random();
 
             //заполняем список случайными числами
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 20; i++)
             {
                 var n = rnd.Next(0, 100);
                 algorithm.Items.Add(n);
