@@ -17,7 +17,7 @@ namespace AlgorithmSort
                     //если следующий больше
                     if (Items[i].CompareTo(Items[i + 1]) == 1)
                     {
-                        Swap(i, i + 1);
+                        Swop(i, i + 1);
                     }
                 }
 
@@ -30,7 +30,7 @@ namespace AlgorithmSort
                     //если предведущий больше
                     if (Items[i].CompareTo(Items[i - 1]) == -1)
                     {
-                        Swap(i, i - i);
+                        Swop(i, i - i);
                     }
                 }
 

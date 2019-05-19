@@ -38,6 +38,7 @@
     <Compile Include="Algorithm\Sort\SortAlgorithmBase.cs" />
     <Compile Include="Algorithm\Sort\CocktailSort.cs" />
     <Compile Include="Algorithm\Sort\InsertSort.cs" />
+    <Compile Include="Algorithm\Sort\ShellSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />

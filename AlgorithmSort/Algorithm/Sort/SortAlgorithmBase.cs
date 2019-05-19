@@ -9,7 +9,7 @@ namespace AlgorithmSort
 
 
         //обмен
-        protected void Swap(int posA, int posB)
+        protected void Swop(int posA, int posB)
         {
             if (posA < Items.Count && posB < Items.Count)
             {

@@ -17,7 +17,7 @@ namespace AlgorithmSort
 
                     if (a.CompareTo(b) == 1)
                     {
-                        Swap(j, j+1);
+                        Swop(j, j+1);
                     }
                 }            
             }
