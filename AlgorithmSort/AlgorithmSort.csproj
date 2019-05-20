@@ -42,6 +42,8 @@
     <Compile Include="Algorithm\DataStruct\Node.cs" />
     <Compile Include="Algorithm\DataStruct\Tree.cs" />
     <Compile Include="Algorithm\Sort\TreeSort.cs" />
+    <Compile Include="Algorithm\DataStruct\Heap.cs" />
+    <Compile Include="Algorithm\Sort\HeapSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />
