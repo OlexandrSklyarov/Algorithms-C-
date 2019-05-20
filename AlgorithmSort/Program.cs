@@ -10,7 +10,8 @@ namespace AlgorithmSort
             //BubleSort<int> algorithm = new BubleSort<int>();
             //CocktailSort<int> algorithm = new CocktailSort<int>();
             //InsertSort<int> algorithm = new InsertSort<int>();
-            ShellSort<int> algorithm = new ShellSort<int>();
+            //ShellSort<int> algorithm = new ShellSort<int>();
+            TreeSort<int> algorithm = new TreeSort<int>();
 
             var rnd = new Random();
 

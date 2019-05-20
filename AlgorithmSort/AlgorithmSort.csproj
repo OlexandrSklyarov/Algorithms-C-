@@ -39,10 +39,14 @@
     <Compile Include="Algorithm\Sort\CocktailSort.cs" />
     <Compile Include="Algorithm\Sort\InsertSort.cs" />
     <Compile Include="Algorithm\Sort\ShellSort.cs" />
+    <Compile Include="Algorithm\DataStruct\Node.cs" />
+    <Compile Include="Algorithm\DataStruct\Tree.cs" />
+    <Compile Include="Algorithm\Sort\TreeSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />
     <Folder Include="Algorithm\Sort\" />
+    <Folder Include="Algorithm\DataStruct\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
