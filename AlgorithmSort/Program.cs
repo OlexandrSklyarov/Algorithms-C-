@@ -12,7 +12,8 @@ namespace AlgorithmSort
             //InsertSort<int> algorithm = new InsertSort<int>();
             //ShellSort<int> algorithm = new ShellSort<int>();
             //TreeSort<int> algorithm = new TreeSort<int>();
-            HeapSort<int> algorithm = new HeapSort<int>();
+            //HeapSort<int> algorithm = new HeapSort<int>();
+            SelectionSort<int> algorithm = new SelectionSort<int>();
 
             var rnd = new Random();
 
