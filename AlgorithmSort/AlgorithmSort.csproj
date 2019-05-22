@@ -45,6 +45,7 @@
     <Compile Include="Algorithm\DataStruct\Heap.cs" />
     <Compile Include="Algorithm\Sort\HeapSort.cs" />
     <Compile Include="Algorithm\Sort\SelectionSort.cs" />
+    <Compile Include="Algorithm\Sort\GnomeSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />

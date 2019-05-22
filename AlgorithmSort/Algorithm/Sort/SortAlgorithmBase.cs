@@ -6,7 +6,7 @@ namespace AlgorithmSort
     public class SortAlgorithmBase<T> 
     {
         public List<T> Items = new List<T>();
-
+        public int SwopCount { get; protected set; }
 
         //обмен
         protected void Swop(int posA, int posB)
@@ -16,6 +16,8 @@ namespace AlgorithmSort
                 T temp = Items[posA];
                 Items[posA] = Items[posB];
                 Items[posB] = temp;
+
+                SwopCount++;
             }
         }
 

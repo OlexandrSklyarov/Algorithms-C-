@@ -13,12 +13,13 @@ namespace AlgorithmSort
             //ShellSort<int> algorithm = new ShellSort<int>();
             //TreeSort<int> algorithm = new TreeSort<int>();
             //HeapSort<int> algorithm = new HeapSort<int>();
-            SelectionSort<int> algorithm = new SelectionSort<int>();
+            //SelectionSort<int> algorithm = new SelectionSort<int>();
+            GnomeSort<int> algorithm = new GnomeSort<int>();
 
             var rnd = new Random();
 
             //заполняем список случайными числами
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 100; i++)
             {
                 var n = rnd.Next(0, 100);
                 algorithm.Items.Add(n);
@@ -31,11 +32,13 @@ namespace AlgorithmSort
             //сортируем
             algorithm.Sort();
 
-            Console.WriteLine();
-
             //выводим список после сортировки
+            Console.WriteLine();
             Console.WriteLine("После сортировки:");
             Output(algorithm.Items);
+
+            Console.WriteLine();
+            Console.WriteLine("Количество обменов:" + algorithm.SwopCount);
 
             Console.ReadKey();
         }
